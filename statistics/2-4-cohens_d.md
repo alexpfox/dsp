@@ -1,18 +1,18 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> Outline:
+Outline:
 
 Cohen's D is an example of effect size. Other examples of effect size are: correlation between two variables, mean difference, regression coefficients and standardized test statistics such as: t, Z, F, etc. In this example, you will compute Cohen's D to quantify (or measure) the difference between two groups of data.
 
 You will see effect size again and again in results of algorithms that are run in data science. For instance, in the bootcamp, when you run a regression analysis, you will recognize the t-statistic as an example of effect size.
 
 
->>> Problem: 
+Problem: 
 
 Compute the Cohen effect size for the difference in pregnancy length for first babies and others.
 
 
->>> Solution:
+Solution:
 
 ```python
 # import libraries
@@ -56,7 +56,7 @@ diff relative to mean: -0.017171423678372415
 Cohen's d: -0.0885903324538168
 
 
->>> Results/meaning:
+Results/meaning:
 
 The difference in mean weights between groups of firsts and others was -0.125lb, or ~ 2oz. This amounts to a bit less than 2% change (~ 1.7%), which is not very significant in the context of birth weight. The number of standard deviations from the mean is ~ 0.09. This is slightly off from what the author calculated, for some reason. 
 
