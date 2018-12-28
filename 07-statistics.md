@@ -99,6 +99,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >>>(1/300)(1/2) / ((1/300)(1/2)+(1/125)*(1/4)) = 5/11
 
+
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
